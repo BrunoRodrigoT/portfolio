@@ -2,10 +2,6 @@
 
 A modern, responsive developer portfolio showcasing skills, projects, and professional experience. Built with cutting-edge web technologies and optimized for performance.
 
-![Portfolio Preview](https://media.daily.dev/image/upload/s--aWLslYU3--/f_auto/v1744482505/ugc/content_50c23b68-02a5-43d8-bb3e-e0b3b2f269d0)
-
-[![Sponsor kinhdev24](https://img.shields.io/badge/Sponsor-kinhdev24-ff69b4)](https://github.com/sponsors/kinhdev24)
-
 ## 🚀 Live Demo
 
 [View Live Portfolio](https://brunorodrigot.com.br.br)
@@ -44,14 +40,7 @@ Before you begin, ensure you have the following installed:
 
 ## 🚀 Quick Start
 
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/kinhdev24/kinhdev24-portfolio.git
-cd kinhdev24-portfolio
-```
-
-### 2. Install Dependencies
+### 1. Install Dependencies
 
 ```bash
 # Using npm
@@ -64,7 +53,7 @@ yarn install
 pnpm install
 ```
 
-### 3. Environment Setup
+### 2. Environment Setup
 
 Create a `.env.local` file in the root directory:
 
@@ -73,7 +62,7 @@ Create a `.env.local` file in the root directory:
 NEXT_PUBLIC_SPOTIFY_PLAYLIST_ID=your_playlist_id_here
 ```
 
-### 4. Run Development Server
+### 3. Run Development Server
 
 ```bash
 # Using npm
@@ -156,7 +145,7 @@ Edit the following files to customize with your information:
 
 1. **My Social Networks**: `src/data/my-networks.ts`
 2. **Role Titles**: `src/data/role-titles.ts`
-3. **Resume File**: `public/file/kinhbach_resume.ts`
+3. **Resume File**: `public/files/BrunoRodrigoResume.pdf`
 4. **Experience**: `src/data/experience.tsx`
 5. **Projects**: `src/data/projects.ts`
 6. **Tech Stacks**: `src/data/tech-stack.ts`
@@ -185,7 +174,7 @@ src/
 ## 📁 Project Structure
 
 ```
-kinhdev24-portfolio/
+portfolio/
 ├── public/             # Static assets
 │   ├── images/         # Images and media
 │   ├── icons/          # Favicon and icons
@@ -268,15 +257,6 @@ If you find a bug, please create an issue with:
 - Screenshots (if applicable)
 - Browser and device information
 
-## 👨‍💻 Author
-
-**[Bach Duong Kinh]**
-
-- GitHub: [@kinhdev24](https://github.com/kinhdev24)
-- LinkedIn: [@kinhdev24](https://www.linkedin.com/in/kinhdev24)
-- Email: [kinhdev24@gmail.com](mailto:kinhdev24@gmail.com)
-- Website: [brunorodrigot.com.br.br](https://brunorodrigot.com.br.br)
-
 ## 🙏 Acknowledgments
 
 - [Next.js](https://nextjs.org/) - React framework
@@ -344,5 +324,3 @@ pnpm install
 ---
 
 ⭐ If you found this project useful, please consider giving it a star on GitHub!
-
-Made with ❤️ by kinhdev24
