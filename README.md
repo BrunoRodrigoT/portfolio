@@ -4,7 +4,7 @@ A modern, responsive developer portfolio showcasing skills, projects, and profes
 
 ## 🚀 Live Demo
 
-[View Live Portfolio](https://brunorodrigot.com.br.br)
+[View Live Portfolio](https://brunorodrigot.com.br)
 
 ## ✨ Features
 
