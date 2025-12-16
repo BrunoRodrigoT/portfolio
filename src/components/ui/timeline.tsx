@@ -31,8 +31,9 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     const resizeObserver = new ResizeObserver(updateHeight)
     resizeObserver.observe(ref.current)
 
+    const currentRef = ref.current
     return () => {
-      if (ref.current) resizeObserver.unobserve(ref.current)
+      if (currentRef) resizeObserver.unobserve(currentRef)
     }
   }, [])
 

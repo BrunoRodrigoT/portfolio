@@ -9,6 +9,7 @@ export const Logo = (props: SVGProps) => {
     height="64"
     fill="none"
     viewBox="0 0 64 64"
+    {...props}
   >
     <path
       fill="#fff"
