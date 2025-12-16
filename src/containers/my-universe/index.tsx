@@ -104,6 +104,24 @@ export const MyUniverse = () => {
           </span>
         </div>
       </div>
+      <div className="flex-1 flex justify-center lg:justify-end w-full mt-8 lg:mt-0">
+        <CompareDemo />
+      </div>
+    </div>
+  )
+}
+
+export function CompareDemo() {
+  return (
+    <div className="w-full border rounded-3xl dark:bg-neutral-900 bg-neutral-100 border-neutral-200 dark:border-neutral-800">
+      <Compare
+        firstImage="/images/ProfileSnippet.png"
+        secondImage="/images/ProjectsSnippet.png"
+        firstImageClassName="object-cover object-left-top"
+        secondImageClassname="object-cover object-left-top"
+        className="h-[200px] sm:h-[250px] md:h-[400px] lg:h-[500px] w-full"
+        slideMode="hover"
+      />
     </div>
   )
 }

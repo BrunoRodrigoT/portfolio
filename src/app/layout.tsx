@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     title: "Bruno Rodrigo | Frontend Developer Portfolio",
     description:
       "Discover Bruno Rodrigo's expertise in Frontend Development, React, and Next.js. View projects, case studies, and technical skills.",
-    url: "https://kinhdev.id.vn",
+    url: "https://brunorodrigot.com.br.br",
     type: "website",
   }
 }
