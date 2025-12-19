@@ -4,8 +4,8 @@ import "@/styles/globals.css"
 import { Analytics } from "@vercel/analytics/next"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import type { Metadata } from "next"
-
 import { Exo_2 } from "next/font/google"
+import SnowFall from "@/components/layout/snow-fall"
 
 const exo2 = Exo_2({
   subsets: ["latin", "vietnamese", "cyrillic"],
@@ -52,7 +52,10 @@ export default function RootLayout({
           defaultTheme="dark"
           disableTransitionOnChange
         >
-          <LayoutWithHeader>{children}</LayoutWithHeader>
+          <LayoutWithHeader>
+                  <SnowFall/>
+            
+            {children}</LayoutWithHeader>
         </ThemeProvider>
         <Analytics />
         <SpeedInsights />
