@@ -19,7 +19,7 @@ export const ComingSoonPage = ({ pageName }: { pageName?: string }) => {
   return (
     <FullScreen className="flex-col">
       <Terminal>
-        <TypingAnimation>&gt; pnpm dlx brunorodrigo@portfolio init</TypingAnimation>
+        <TypingAnimation>&gt; yarn dlx github:BrunoRodrigoT/portfolio</TypingAnimation>
 
         <AnimatedSpan delay={1500} className="text-green-500">
           <span>✔ Design checks.</span>
